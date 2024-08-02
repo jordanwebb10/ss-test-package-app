@@ -1,3 +1,4 @@
+#' @export
 app_server <- function(input, output, session) {
 
   # Function to fetch data from database (replace with your actual data retrieval code)

@@ -1,3 +1,4 @@
+#' @export
 app_ui <- function(){
   dashboardPage(
     dashboardHeader(title = "Database Viewer"),
@@ -12,7 +13,7 @@ app_ui <- function(){
           tabName = "dashboard",
           fluidRow(
             box(
-              width = '100%',
+              width = 12,
               title = "Data Table",
               solidHeader = TRUE,
               status = "primary",
@@ -21,7 +22,7 @@ app_ui <- function(){
           ),
           fluidRow(
             box(
-              width = '100%',
+              width = 12,
               title = "Plot",
               solidHeader = TRUE,
               status = "primary",
